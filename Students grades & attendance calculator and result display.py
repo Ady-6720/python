@@ -1,4 +1,5 @@
-#error handling in student grades program
+#This is a program to calculate student grades and student attendance percentage and show them if they are passed or failed if failed why so.
+#This program is modified so that errors and crashes will avoided in case of invalid inputs such as strings and other inputs other than float values or int values.
 
 #data validation
 #if student enters grades below 0 or above 10 then data will be invalid
