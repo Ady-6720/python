@@ -1,4 +1,8 @@
 #program to showuser his typing elapses and mistakes and plot a graph from data
+#first install matplotlib, by going to cmd prompt as admin and give command = pip install matplotlib
+#also if you are using spyder then go to options in console section and unmark mute inline
+#if still you are unable to see the plots comment or send a mail or messege me on LinkedIN
+
 import time as t
 import matplotlib.pyplot as plt
 import random
