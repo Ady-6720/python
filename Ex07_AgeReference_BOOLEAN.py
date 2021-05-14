@@ -1,6 +1,6 @@
 #create a program to show the age gap compared to yours
 
-ma=input("Enter age of person wrt whome you want to see that are you older or younger !")
+ma=float(input("Enter age of person wrt whome you want to see that are you older or younger !"))
 age=float(input("Enter your age:   "))
 gap=ma-age
 if(ma>age):
