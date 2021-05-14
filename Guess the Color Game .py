@@ -1,4 +1,4 @@
-#Guess the colour
+#Guess the colour game
 import random
 colour=["red","green","blue","yellow","black","white","orange","pink","brown","purple","voilet"]
 
