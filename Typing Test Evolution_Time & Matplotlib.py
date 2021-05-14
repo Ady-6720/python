@@ -17,6 +17,7 @@ w=random.randint(0,len(words)-1)
 f=str(words[w])
 
 print("This program will show you how much time you taken to type   ",str(f),"    word, and also will show how much you progressed.")
+print("Word to type =    ",str(f))
 input("press ENTER to continue !")
 while len(time)<5:              #this loop will run 5 times
     start=t.time()              #this will store start time wrt to apack
