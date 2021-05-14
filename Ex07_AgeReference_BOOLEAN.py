@@ -1,10 +1,12 @@
 #create a program to show the age gap compared to yours
 
-ma= 22
+ma=input("Enter age of person wrt whome you want to see that are you older or younger !")
 age=float(input("Enter your age:   "))
+gap=ma-age
 if(ma>age):
-    print("You are younger than me !")
+    print("You are younger than him/her , by ",gap," years !")
 elif(ma<age):
-    print("You are older than me! ")
+    gap=gap*(-1)
+    print("You are older him/her, by  ",gap," years !")
 else:
     print("We both have same age !")
